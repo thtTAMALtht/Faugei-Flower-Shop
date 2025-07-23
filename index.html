@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faugei Flower Shop">
+    <meta name="author" content="TH Tamal">
+    <title>Faugei Flower Shop</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- custome css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- custome css -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind css -->
+
+    <!-- google fonts noto serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- google fonts noto serif-->
+
+    <!-- google fonts inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- google fonts inter-->
+  </head>
+  <body class="max-w-[1140px] mx-auto p-0 outline-0 bg-[#F5F8FF]">
+    <header class="mt-8 px-6 lg:px-0">
+      <nav class="flex  justify-between">
+        <div class="navLeft">
+          <a href="index.html">
+            <img class="w-24" src="./images/logo.png" alt>
+          </a>
+        </div>
+        <div class="navRight flex items-center">
+          <ul class="flex gap-8">
+            <li>
+              <a class="font-semibold hidden md:block" href="index.html">Home</a>
+            </li>
+            <li class="text-[var(--text-color)] hidden md:block">
+              <a href="index.html">Shop</a>
+            </li>
+            <li class="text-[var(--text-color)] hidden md:block">
+              <a href="index.html">About us</a>
+            </li>
+            <li>
+              <a href="#">
+                <span>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                <span>Cart ($56)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav part end -->
+      <!-- banner part start -->
+      <div class="banner flex flex-col-reverse md:flex-row  md:items-end mt-12">
+        <div class="banner-left md:max-w-[50%]">
+          <h3 class="noto-serif-bold text-2xl md:text-6xl leading-tight pt-12">ALWAYS <span class="text-[var(--main-color)] ">FRESH <br>FLOWERS </span>
+          </h3>
+          <p class="text-[14px] inter-regular text-[var(--text-color)] pt-2 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <div class="banner-right md:max-w-[50%]">
+          <img class="w-full" src="./images/banner.png" alt="banner flower">
+        </div>
+      </div>
+      <!-- banner part end -->
+    </header>
+  </body>
+</html>

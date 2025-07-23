@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul,
+  address {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  :root {
+    --main-color: #e95a08;
+  }
+  
+  :root {
+    --text-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .noto-serif-bold {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
