@@ -17,9 +17,7 @@ address {
   margin-top: 0;
   margin-bottom: 0;
 }
-a {
-  text-decoration: none;
-}
+
 
 :root {
   --main-color: #e95a08;
