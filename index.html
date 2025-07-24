@@ -7,36 +7,24 @@
     <meta name="author" content="TH Tamal">
     <title>Faugei Flower Shop</title>
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-
     <!-- custome css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- custome css -->
-
     <!-- font awesome -->
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awesome -->
-
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- tailwind css -->
-
     <!-- google fonts noto serif-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- google fonts noto serif-->
-
     <!-- google fonts inter-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!-- google fonts inter-->
   </head>
   <body class="outline-0 bg-[#F5F8FF]">
@@ -49,20 +37,19 @@
         </div>
         <div class="navRight flex items-center">
           <ul class="flex gap-8">
-            <li>
-              <a class="font-semibold hidden md:block"
-                href="index.html">Home</a>
+            <li class="hover:text-[var(--main-color)] transition-all duration-500 ease-in-out">
+              <a class="font-semibold hidden md:block" href="index.html">Home</a>
             </li>
-            <li class="text-[var(--text-color)] hidden md:block">
+            <li class="text-[var(--text-color)] hidden md:block hover:text-[var(--main-color)] transition-all duration-500 ease-in-out">
               <a href="index.html">Shop</a>
             </li>
-            <li class="text-[var(--text-color)] hidden md:block">
+            <li class="text-[var(--text-color)] hidden md:block hover:text-[var(--main-color)] transition-all duration-500 ease-in-out">
               <a href="index.html">About us</a>
             </li>
-            <li>
+            <li class="hover:text-[var(--main-color)]">
               <a href="#">
                 <span>
-                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-cart-shopping hover:text-[var(--main-color)] transition-all duration-500 ease-in-out"></i>
                 </span>
                 <span>Cart ($56)</span>
               </a>
@@ -72,17 +59,11 @@
       </nav>
       <!-- nav part end -->
       <!-- banner part start -->
-      <div class="banner flex flex-col-reverse md:flex-row  md:items-end mt-12">
+      <div class="banner flex flex-col-reverse md:flex-row  md:items-end mt-16">
         <div class="banner-left md:max-w-[50%]">
-          <h3
-            class="noto-serif-bold text-2xl md:text-6xl leading-tight pt-12">ALWAYS
-            <span class="text-[var(--main-color)] ">FRESH <br>FLOWERS </span>
+          <h3 class="noto-serif-bold text-2xl md:text-6xl leading-tight pt-12">ALWAYS <span class="text-[var(--main-color)] ">FRESH <br>FLOWERS </span>
           </h3>
-          <p
-            class="text-[18px] inter-regular text-[var(--text-color)] pt-2 ">Indulge
-            your senses with the beauty and fragrance of our fresh flower shop.
-            From classic roses to exotic blooms, we offer a wide variety of
-            fresh flowers that are perfect for any occasion. </p>
+          <p class="text-[18px] inter-regular text-[var(--text-color)] pt-2 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
         <div class="banner-right md:max-w-[50%]">
           <img class="w-full" src="./images/banner.png" alt="banner flower">
@@ -90,217 +71,211 @@
       </div>
       <!-- banner part end -->
     </header>
-
     <main class="mt-8 px-6 lg:px-4 xl:px-0">
       <section class="max-w-[1140px] mx-auto">
         <div class="plant text-center mt-24">
-          <h3 class="noto-serif-bold text-5xl mt-1"><span
-              class="text-[var(--main-color)]">Our</span> Plants</h3>
-          <p class="text-[var(--text-color)] text-[18px] py-6">Indulge your
-            senses
-            with the beauty and fragrance of our fresh flower shop.
-            From classic roses to exotic blooms, we offer a wide variety of
-            fresh.</p>
+          <h3 class="noto-serif-bold text-5xl mt-1">
+            <span class="text-[var(--main-color)]">Our</span> Plants
+          </h3>
+          <p class="text-[var(--text-color)] text-[18px] py-6 max-w-[888px] mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
-        <div
-          class="plan-cart-items grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-4">
+        <div class="plan-cart-items grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-4">
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
           <div class="plant-cart ">
-            <img src="./images/sample-flower-image.png" alt="plants cart"
-              class="w-full">
+            <img src="./images/sample-flower-image.png" alt="plants cart" class="w-full">
             <h3 class="inter-regular text-[18px] pt-4">Lily Blossom</h3>
             <h5 class="inter-bold text-[16px] pb-4">20 USD</h5>
-            <button onclick="cart()"
-              class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD
-              TO CART</button>
+            <button onclick="cart()" class="inter-semiBold  text-[16px] bg-[var(--main-color)] text-white py-2 px-8 cursor-pointer w-full hover:bg-amber-600 hover:text-[var(--text-color)] transition-all duration-500 ease-in-out">ADD TO CART</button>
           </div>
-
         </div>
       </section>
       <!-- plants cart part end -->
       <section class="max-w-[1140px] mx-auto py-36">
         <div class="plants-lover flex flex-col lg:flex-row gap-12">
           <div class="plants-lover-left relative">
-            <img src="./images/flower-store.png" alt="flower store"
-              class="w-full">
-            <img
-              class="absolute md:top-[-75px] md:left-[280px] lg:top-[-75px] lg:left-[220px] xl:top-[-75px] xl:left-[270px] w-[170px] hidden md:block animate-spin [animation-duration:5s]"
-              src="./images/trusted-badge3.png" alt="Trusted Seller Badge">
+            <img src="./images/flower-store.png" alt="flower store" class="w-full">
+            <img class="absolute md:top-[-75px] md:left-[280px] lg:top-[-75px] lg:left-[220px] xl:top-[-75px] xl:left-[270px] w-[170px] hidden md:block animate-spin [animation-duration:5s]" src="./images/trusted-badge3.png" alt="Trusted Seller Badge">
           </div>
-
           <div class="plants-lover-right">
-            <h3 class="text-[50px] noto-serif-bold">Flower &
-              Plants<span class="hidden md:inline"><br></span>
-              Lover
-            </h3>
-
+            <h3 class="text-[50px] noto-serif-bold">Flower & Plants <span class="hidden md:inline">
+                <br>
+              </span> Lover </h3>
             <ul class="list-disc text-[var(--text-color)] ml-6">
               <li class="mb-4">
-                <p>Indulge your senses with the beauty and fragrance of our
-                  fresh flower shop. From classic roses to exotic blooms, we
-                  offer a wide variety of fresh.</p>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
               </li>
               <li class="mb-4">
-                <p>Indulge your senses with the beauty and fragrance of our
-                  fresh flower shop. From classic roses to exotic blooms, we
-                  offer a wide variety of fresh.</p>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+              </li>
+              <li class="mb-4">
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
               </li>
               <li>
-                <p>Indulge your senses with the beauty and fragrance of our
-                  fresh flower shop. From classic roses to exotic blooms, we
-                  offer a wide variety of fresh.</p>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <!-- plants lover part end -->
-
       <section class="max-w-[1140px] mx-auto">
         <div class="latest-deals text-center">
-          <h3 class="text-[50px] noto-serif-bold"><span
-              class="text-[var(--main-color)]">Latest </span>Deals</h3>
-          <p
-            class="text-[var(--text-color)] text-[18px] max-w-[888px] mx-auto">Indulge
-            your senses with the beauty and fragrance of our fresh flower shop.
-            From classic roses to exotic blooms, we offer a wide variety of
-            fresh.</p>
+          <h3 class="text-[50px] noto-serif-bold">
+            <span class="text-[var(--main-color)]">Latest </span>Deals
+          </h3>
+          <p class="text-[var(--text-color)] text-[18px] max-w-[888px] mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
-
         <div class="flex flex-col md:flex-row gap-4 my-16">
           <div class="grid gap-4">
             <div class="relative">
-              <img class="rounded-2xl w-full h-full object-cover"
-                src="./images/deal-bloom.png" alt="deal bloom">
-              <div
-                class="absolute inset-0 rounded-2xl bg-[linear-gradient(to_right,rgba(0,0,0,.4),rgba(0,0,0,.4))]">
-              </div>
-              <div
-                class="absolute noto-serif-bold inset-0 flex flex-col justify-center items-center text-white ">
+              <img class="rounded-2xl w-full h-full object-cover" src="./images/deal-bloom.png" alt="deal bloom">
+              <div class="absolute inset-0 rounded-2xl bg-[linear-gradient(to_right,rgba(0,0,0,.4),rgba(0,0,0,.4))]"></div>
+              <div class="absolute noto-serif-bold inset-0 flex flex-col justify-center items-center text-white ">
                 <p class="text-[20px]">60% Off | Bloom Plant</p>
                 <a href="#" class="underline text-xs mt-1">Shop Now</a>
               </div>
             </div>
-
             <div class="relative">
-              <img class="rounded-2xl w-full h-full object-cover"
-                src="./images/deal-ana.png"
-                alt="deal ana">
-              <div
-                class="absolute inset-0 bg-gradient-to-r from-black/40 to-black/40 rounded-2xl">
-              </div>
-              <div
-                class="absolute noto-serif-bold inset-0 flex flex-col justify-center items-center text-white">
+              <img class="rounded-2xl w-full h-full object-cover" src="./images/deal-ana.png" alt="deal ana">
+              <div class="absolute inset-0 bg-gradient-to-r from-black/40 to-black/40 rounded-2xl"></div>
+              <div class="absolute noto-serif-bold inset-0 flex flex-col justify-center items-center text-white">
                 <p class="text-[20px]">30% Off | Ana Plant</p>
                 <a href="#" class="underline text-xs mt-1">Shop Now</a>
               </div>
             </div>
           </div>
-
           <div class="relative">
-            <img class="rounded-2xl w-full h-full object-cover"
-              src="./images/deal-zabo.png"
-              alt>
-            <div
-              class="absolute inset-0 bg-gradient-to-r from-black/40 to-black/40 rounded-2xl">
-            </div>
-            <div
-              class="absolute noto-serif-bold inset-0  flex flex-col justify-center items-center text-white">
+            <img class="rounded-2xl w-full h-full object-cover" src="./images/deal-zabo.png" alt>
+            <div class="absolute inset-0 bg-gradient-to-r from-black/40 to-black/40 rounded-2xl"></div>
+            <div class="absolute noto-serif-bold inset-0  flex flex-col justify-center items-center text-white">
               <p class="text-[28px]">25% Off | Zabo Plant</p>
               <a href="#" class="underline text-base mt-2">Shop Now</a>
             </div>
           </div>
-
         </div>
       </section>
       <!-- latest deal part end -->
-
       <section>
         <div class="relative bunch bg-[url('./images/news-letter-bg.png')] h-[300px] md:h-[540px] bg-no-repeat bg-cover bg-center">
-            <div class="absolute inset-0 flex flex-col justify-center items-center">
-              <h4 class="noto-serif-bold text-white text-[25px] sm:text-[40px] md:text-[50px] pb-4">Join the colorful Bunch</h4>
-              <div class="form-group">
-                <input type="text" placeholder="Write email" name="" id="" class="bg-white border-0 p-2 w-[170px] sm:w-[300px] md:w-[444px] @min-lg::w-[644px] inter-semiBold focus:outline-0 text-black">
-
-                <button class="bg-[var(--main-color)] w-[100px] sm:w-[120px] md:w-[186px] p-2 mx-[-5px] text-white inter-semiBold cursor-pointer">Subscribe</button>
-              </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center">
+            <h4 class="noto-serif-bold text-white text-[25px] sm:text-[40px] md:text-[50px] pb-4">Join the colorful Bunch</h4>
+            <div class="form-group">
+              <input type="email" placeholder="Write email" name="email" id="email" class="bg-white border-0 p-2 w-[170px] sm:w-[300px] md:w-[444px] @min-lg::w-[644px] inter-semiBold focus:outline-0 text-black">
+              <button class="bg-[var(--main-color)] w-[100px] sm:w-[120px] md:w-[186px] p-2 mx-[-5px] text-white inter-semiBold cursor-pointer">Subscribe</button>
             </div>
+          </div>
         </div>
       </section>
       <!-- subscribe part end -->
-
-
-
-
-
-
-
     </main>
-
+    <footer class="max-w-[1120px] mx-auto  mt-8 px-6 lg:px-4 xl:px-0">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 py-8">
+        <div class>
+          <a href="index.html">
+            <img src="./images/logo.png" alt footer logo>
+          </a>
+          <p class="text-[18px] text-[var(--text-color)] inter-regular pt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 leading-12">
+          <div class="lg:ml-12">
+            <ul class="text-[18px] text-[var(--text-color)] inter-regular">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="index.html">About Us</a>
+              </li>
+              <li>
+                <a href="index.html">Blog</a>
+              </li>
+              <li>
+                <a href="index.html">FAQ</a>
+              </li>
+              <li>
+                <a href="index.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:ml-12">
+            <ul class="text-[18px] text-[var(--text-color)] inter-regular">
+              <li>
+                <a href="index.html">Features</a>
+              </li>
+              <li>
+                <a href="index.html">Pricing</a>
+              </li>
+              <li>
+                <a href="index.html">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="index.html">Terms of Services</a>
+              </li>
+              <li>
+                <a href="index.html">Help Center</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex gap-6 md:justify-end">
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img class="w-[30px] h-[30px]" src="./images/icon-linkedin.png" alt="linkedin image">
+          </a>
+          <a href="https://x.com/" target="_blank">
+            <img class="w-[30px] h-[30px]" src="./images/icon-twitter.png" alt="twiiter image">
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="w-[30px] h-[30px]" src="./images/icon-facebook.png" alt="facebook image">
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img class="w-[30px] h-[30px]" src="./images/icon-youtube.png" alt="youtube image">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer part end -->
     <script>
-      function cart(){
+      function cart() {
         alert("added to cart successfully");
       }
     </script>
